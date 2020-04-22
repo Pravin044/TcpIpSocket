@@ -18,9 +18,9 @@ namespace TcpServer
             // running the application. 
             IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
             //Ip address parse
-            IPAddress ipAddr = IPAddress.Parse("192.168.1.25");
+            IPAddress ipAddr = IPAddress.Parse("192.168.1.103");
             //Port details
-            IPEndPoint localEndPoint = new IPEndPoint(ipAddr, 8080);
+            IPEndPoint localEndPoint = new IPEndPoint(ipAddr, 4242);
 
             // Creation TCP/IP Socket using 
             // Socket Class Costructor 
